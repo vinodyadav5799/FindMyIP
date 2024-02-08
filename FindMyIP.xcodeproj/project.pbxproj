@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0ABC45BE2B74BC1E0086EC44 /* FindMyIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45BD2B74BC1E0086EC44 /* FindMyIPApp.swift */; };
-		0ABC45C02B74BC1E0086EC44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45BF2B74BC1E0086EC44 /* ContentView.swift */; };
+		0ABC45C02B74BC1E0086EC44 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45BF2B74BC1E0086EC44 /* MainView.swift */; };
 		0ABC45C22B74BC1F0086EC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC45C12B74BC1F0086EC44 /* Assets.xcassets */; };
 		0ABC45C52B74BC1F0086EC44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC45C42B74BC1F0086EC44 /* Preview Assets.xcassets */; };
 		0ABC45CF2B74BC200086EC44 /* FindMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45CE2B74BC200086EC44 /* FindMyIPTests.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0ABC45BA2B74BC1E0086EC44 /* FindMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC45BD2B74BC1E0086EC44 /* FindMyIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPApp.swift; sourceTree = "<group>"; };
-		0ABC45BF2B74BC1E0086EC44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0ABC45BF2B74BC1E0086EC44 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0ABC45C12B74BC1F0086EC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ABC45C42B74BC1F0086EC44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ABC45CA2B74BC200086EC44 /* FindMyIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABC45BD2B74BC1E0086EC44 /* FindMyIPApp.swift */,
-				0ABC45BF2B74BC1E0086EC44 /* ContentView.swift */,
+				0ABC45BF2B74BC1E0086EC44 /* MainView.swift */,
 				0ABC45C12B74BC1F0086EC44 /* Assets.xcassets */,
 				0ABC45C32B74BC1F0086EC44 /* Preview Content */,
 			);
@@ -405,7 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ABC45C02B74BC1E0086EC44 /* ContentView.swift in Sources */,
+				0ABC45C02B74BC1E0086EC44 /* MainView.swift in Sources */,
 				0ABC45BE2B74BC1E0086EC44 /* FindMyIPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
