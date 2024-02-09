@@ -10,7 +10,7 @@ import Combine
 import Alamofire
 
 protocol ServiceProtocol {
-    func fetchChats() -> AnyPublisher<DataResponse<LocationTracker, NetworkError>, Never>
+    func fetchLocationDetails() -> AnyPublisher<DataResponse<LocationTracker, NetworkError>, Never>
 }
 
 
@@ -20,7 +20,7 @@ class Service {
 }
 
 extension Service: ServiceProtocol {
-    func fetchChats() -> AnyPublisher<DataResponse<LocationTracker, NetworkError>, Never> {
+    func fetchLocationDetails() -> AnyPublisher<DataResponse<LocationTracker, NetworkError>, Never> {
         let url = URL(string: "https://ipapi.co/json/")!
         
         return AF.request(url, method: .get)

@@ -10,8 +10,10 @@ import XCTest
 
 final class FindMyIPTests: XCTestCase {
 
+    var viewModel: DataViewModel!
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        viewModel = DataViewModel()
     }
 
     override func tearDownWithError() throws {
@@ -32,5 +34,7 @@ final class FindMyIPTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
 }
+
+

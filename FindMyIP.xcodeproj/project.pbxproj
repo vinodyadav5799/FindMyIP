@@ -10,7 +10,7 @@
 		0A7D23402B75696E002FB45C /* LocationTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D233F2B75696E002FB45C /* LocationTracker.swift */; };
 		0A7D23432B756A55002FB45C /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D23422B756A55002FB45C /* NetworkError.swift */; };
 		0A7D23452B756AF8002FB45C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D23442B756AF8002FB45C /* Service.swift */; };
-		0A7D23482B756B6D002FB45C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D23472B756B6D002FB45C /* ViewModel.swift */; };
+		0A7D23482B756B6D002FB45C /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7D23472B756B6D002FB45C /* DataViewModel.swift */; };
 		0ABC45BE2B74BC1E0086EC44 /* FindMyIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45BD2B74BC1E0086EC44 /* FindMyIPApp.swift */; };
 		0ABC45C02B74BC1E0086EC44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC45BF2B74BC1E0086EC44 /* ContentView.swift */; };
 		0ABC45C22B74BC1F0086EC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC45C12B74BC1F0086EC44 /* Assets.xcassets */; };
@@ -44,7 +44,7 @@
 		0A7D233F2B75696E002FB45C /* LocationTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTracker.swift; sourceTree = "<group>"; };
 		0A7D23422B756A55002FB45C /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		0A7D23442B756AF8002FB45C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		0A7D23472B756B6D002FB45C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0A7D23472B756B6D002FB45C /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		0ABC45BA2B74BC1E0086EC44 /* FindMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABC45BD2B74BC1E0086EC44 /* FindMyIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPApp.swift; sourceTree = "<group>"; };
 		0ABC45BF2B74BC1E0086EC44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 		0A7D23462B756B5B002FB45C /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
-				0A7D23472B756B6D002FB45C /* ViewModel.swift */,
+				0A7D23472B756B6D002FB45C /* DataViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -445,7 +445,7 @@
 				0A7D23432B756A55002FB45C /* NetworkError.swift in Sources */,
 				0A7D23452B756AF8002FB45C /* Service.swift in Sources */,
 				0ABC45BE2B74BC1E0086EC44 /* FindMyIPApp.swift in Sources */,
-				0A7D23482B756B6D002FB45C /* ViewModel.swift in Sources */,
+				0A7D23482B756B6D002FB45C /* DataViewModel.swift in Sources */,
 				0A7D23402B75696E002FB45C /* LocationTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

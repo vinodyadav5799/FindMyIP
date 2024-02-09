@@ -7,8 +7,10 @@
 
 import Foundation
 import Combine
-class ViewModel: ObservableObject {
+
+class DataViewModel: ObservableObject {
     
+    @Published var loading = true
     //@Published var locationTracker = LocationTracker(). //[ChatModel]()
     
     @Published  var ip                 : String = ""
@@ -48,12 +50,13 @@ class ViewModel: ObservableObject {
     
     init( dataManager: ServiceProtocol = Service.shared) {
         self.dataManager = dataManager
-        getChatList()
+        getLocationDetail()
     }
     
-    func getChatList() {
-        dataManager.fetchChats()
+    func getLocationDetail() {
+        dataManager.fetchLocationDetails()
             .sink { (dataResponse) in
+                self.loading=false
                 if dataResponse.error != nil {
                     self.createAlert(with: dataResponse.error!)
                 } else {
