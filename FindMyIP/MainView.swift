@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     
     @ObservedObject var viewModel = DataViewModel()
     @State private var isAnimating: Bool = true
@@ -337,7 +337,7 @@ struct ActivityIndicatorView: UIViewRepresentable {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
 
